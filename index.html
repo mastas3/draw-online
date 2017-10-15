@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="index.css">
+  <title>Draw Online</title>
+</head>
+<body>
+  <button id="clearScreen">Clear Screen</butto>
+
+  <script src="https://www.gstatic.com/firebasejs/4.5.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCPfqZOHefzz4B1F1GKHN1O53Fuduj4PHI",
+      authDomain: "draw-online-82e5e.firebaseapp.com",
+      databaseURL: "https://draw-online-82e5e.firebaseio.com",
+      projectId: "draw-online-82e5e",
+      storageBucket: "",
+      messagingSenderId: "213687801269"
+    };
+    firebase.initializeApp(config);
+  </script>  
+  <script src="./p5.min.js"></script>
+  <script src="./database.js"></script>
+  <script src="./index.js"></script>
+  <script src="./Line.js"></script>
+  <script src="./sketch.js"></script>
+</body>
+</html>
